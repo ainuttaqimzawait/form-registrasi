@@ -1,0 +1,67 @@
+body {
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(101, 71, 165), rgb(218, 215, 225), rgb(166, 45, 117));
+}
+
+form {
+    /* height: 600px; */
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 6px 6px #c7bdc7;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+Input#username,
+#email,
+#password,
+#jurusan {
+    width: 315px;
+    height: 30px;
+    border: 0.5px solid #ddd7dd;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#gender {
+    margin-left: 20px;
+}
+
+option {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#alamat {
+    width: 315px;
+    height: 100px;
+    border: 0.5px solid #ddd7dd;
+    border-radius: 3px;
+}
+
+button {
+    width: 315px;
+    height: 40px;
+    border: 0.5px solid #ddd7dd;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 16px;
+    background-color: #089508;
+}
+
+.form {
+    padding-top: 10px;
+}
